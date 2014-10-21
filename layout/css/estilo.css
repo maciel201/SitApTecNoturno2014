@@ -3,12 +3,84 @@ body{background-color: black;color: white;}
 @media screen and (orientation:portrait) {
     /* Retrato -  rertical*/
     .paisagem{display:none;}
-    .retrato{dispplay:block;}
+    .retrato{display:block;}
 }
 
 @media screen and (orientation:landscape) {
     /* paisagem -  Horizontal*/
     .paisagem{display:block;}
-    .retrato{ dispplay:none;}
+    .retrato{ display:none;}
 }
 
+@media screen and(min-width:1280px){
+    /*largura minima 1280 pxels*/
+    section{
+        display: block;
+        margin: 0 auto;
+        padding-left: 50px;
+        width: 1230px;
+        /*só pra debug*/
+        border:2px white solid;
+    }figure{
+        width: 390px;
+        height: 300px;
+        float: left;
+        border: 2px white solid;
+        margin: 5px;
+    }
+   
+    
+}
+@media screen and(min-width:800px) and(max-width:1279px){
+    
+    section{
+        display: block;
+        margin: 0 auto;
+        padding-left: 50px;
+        width: 800px;
+        /*só pra debug*/
+        border:2px white solid;
+    }figure{
+        width: 350px;
+        height: 280px;
+        float: left;
+        border: 2px white solid;
+        margin: 5px;
+    }
+}
+@media screen and(min-width:799px){
+    section{
+        display: block;
+        margin: 0 auto;
+        padding-left: 50px;
+        width: 640px;
+        /*só pra debug*/
+        border:2px white solid;
+    }figure{
+        width: 600px;
+        height: auto;
+        float: left;
+        border: 2px yellow dotted;
+        margin: 5px;
+    }}
+
+.fim{clear: both;}
+
+
+ img{/*responsivo*/
+        width: 95%;/*refere-se a </figure>*/
+        height: 90%;
+        display: block;
+        margin: 5% auto;/*centralização, desde que o display esteja  block*/
+        
+    }
+    figcaption{
+        height: 30px;
+        background-color: rgba(240,240,240,0.4);
+        position: relative;
+        bottom: 50px;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+            
+    }
