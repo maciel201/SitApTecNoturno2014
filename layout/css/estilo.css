@@ -1,0 +1,14 @@
+body{background-color: black;color: white;}
+
+@media screen and (orientation:portrait) {
+    /* Retrato -  rertical*/
+    .paisagem{display:none;}
+    .retrato{dispplay:block;}
+}
+
+@media screen and (orientation:landscape) {
+    /* paisagem -  Horizontal*/
+    .paisagem{display:block;}
+    .retrato{ dispplay:none;}
+}
+
