@@ -48,11 +48,11 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = '';
-$db['default']['database'] = 'teste29';
-$db['default']['dbdriver'] = 'mysql';
+$db['default']['hostname'] = 'localhost'; // Aqui estou usando o meu servidor local, configurado em meu compudador
+$db['default']['username'] = 'root'; // O usuário para conexão com o banco
+$db['default']['password'] = ''; // A senha para conexão com o banco
+$db['default']['database'] = 'crud'; // O nome do banco que criou no inicio do tutorial
+$db['default']['dbdriver'] = 'mysql'; // O drive para conexão, neste caso estou usando o MySQL
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
 $db['default']['db_debug'] = TRUE;
@@ -63,6 +63,8 @@ $db['default']['dbcollat'] = 'utf8_general_ci';
 $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
+
+
 
 
 /* End of file database.php */
