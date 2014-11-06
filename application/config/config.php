@@ -58,7 +58,6 @@ $config['uri_protocol']	= 'AUTO';
 */
 
 $config['url_suffix'] = '';
-
 /*
 |--------------------------------------------------------------------------
 | Default Language
