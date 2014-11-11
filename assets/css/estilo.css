@@ -1,15 +1,5 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 04/11/2014, 20:32:47
-    Author     : Notebook Gateway
-*/
-
 body {
-    background-color: #9999ff;
+    background-color: #ffffff;
     font-family: Arial, "Trebuchet MS", sans-serif;
     font-size: 12px; color: #333;
     margin: 0px; padding: 10px;
@@ -48,11 +38,4 @@ img {
 .error {
     font-size: 10px;
     color: red;
-}
-fieldset{
-    background-color: #ccccff;
-}
-legend{
-     font-weight: bold;
-     font-size:26px;
 }

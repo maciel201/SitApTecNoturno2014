@@ -10,21 +10,19 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+                
+		<!--[if lte IE 8]><script src="<?php echo base_url('assets/css/ie/html5shiv.js'); ?>"></script><![endif]-->
 		<script src="<?php echo base_url('assets/js/jquery.min.js'); ?>"></script>
 		<script src="<?php echo base_url('assets/js/jquery.scrolly.min.js'); ?>"></script>
 		<script src="<?php echo base_url('assets/js/jquery.scrollzer.min.js'); ?>"></script>
-		<script src="<?php echo base_url('assets/js/jquery.scrollzer.min.js'); ?>"></script>
+		<script src="<?php echo base_url('assets/js/skel.min.js'); ?>"></script>
 		<script src="<?php echo base_url('assets/js/skel-layers.min.js'); ?>"></script>
 		<script src="<?php echo base_url('assets/js/init.js'); ?>"></script>
-		
-			<link rel="stylesheet" href="<?php echo base_url('assets/css/skel.css'); ?>" />
-			<link rel="stylesheet" href="<?php echo base_url('assets/css/style.css'); ?>" />
-			
+		<noscript>
 			<link rel="stylesheet" href="<?php echo base_url('assets/css/skel.css'); ?>" />
 			<link rel="stylesheet" href="<?php echo base_url('assets/css/style.css'); ?>" />
 			<link rel="stylesheet" href="<?php echo base_url('assets/css/style-wide.css'); ?>" />
-		
+		</noscript>
 		<!--[if lte IE 9]><link rel="stylesheet" href="<?php echo base_url('assets/css/ie/v9.css'); ?>" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="<?php echo base_url('assets/css/ie/v8.css'); ?>" /><![endif]-->
 	</head>

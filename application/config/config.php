@@ -26,7 +26,7 @@ $config['base_url']	= '';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------
@@ -58,6 +58,7 @@ $config['uri_protocol']	= 'AUTO';
 */
 
 $config['url_suffix'] = '';
+
 /*
 |--------------------------------------------------------------------------
 | Default Language
